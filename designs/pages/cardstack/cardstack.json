@@ -1,0 +1,13 @@
+{
+    "appPageId": "d55baa1a-3c02-c15d-fcae-038446d6d286",
+    "appPageName": "cardstack",
+    "componentName": "cardstackComponent",
+    "selectorName": "bh-cardstack",
+    "htmlFileName": "cardstack.template.html",
+    "tsFileName": "cardstack.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

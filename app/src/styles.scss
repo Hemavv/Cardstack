@@ -1,0 +1,235 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+body{
+    overflow: hidden;
+}
+
+// .row1{
+//      background: linear-gradient(262deg, #ff7854, #fd267d);
+    
+// }
+// #cardtravel {
+//     //    border-radius:50% !important ;     
+//     //  margin-left:45% !important;     
+//     //  margin-top:3% !important;     
+//     //   border: 2px solid white !important;
+//     //   width:10%;
+//     //   height:15%;
+//     border:2px solid white;
+//      font-size: 18px;
+//      color:white;
+//      text-align: center;
+//      width: 10%;
+//      height:25px;
+//      border-radius: 50%;
+//      margin-top:9px;
+//      margin-left:40%;
+//      display:block;
+//      white-space: nowrap;
+//      padding-top: 2%;
+//      background-repeat:no-repeat; 
+// }
+
+// .profile{
+// color:white;
+// text-align:center;
+// margin-left:10px;
+// }
+
+// .refreshicon,.crossicon,.staricon,.likedicon,.lighticon{
+//         background-color:white;
+//     width:65px;
+//     height:65px;
+//     border-color:white;
+//     border:5px solid white;
+//     cursor:pointer;
+//     border-radius: 50%;
+   
+// }
+// .refreshicon:hover,.crossicon:hover,.staricon:hover,.likedicon:hover,.lighticon:hover{
+// -ms-transform: scale(1.2); /* IE 9 */
+//     -webkit-transform: scale(1.2); /* Safari 3-8 */
+//     transform: scale(1.2);
+//     }
+// .bellicon{
+//     margin:10px; 
+//     width:10%;
+//     height:30px;
+//     border-radius:20%;
+// }
+// .para1{
+//     margin-left:10px;
+//     margin-top:2px;
+    
+// }
+// .row2{
+//     background-color:yellow;
+//     max-height:5%;
+//      background: linear-gradient(262deg,#ff9900,#ffff00);
+// }
+// .messageicon{
+//     width: 10%;
+//      height: 52%;
+//      border-radius: 50%;
+//      margin-left:45%;
+//      margin-top:3%;
+//      border-color: white;
+//       border-style: solid;
+// }
+// .tindericon{
+//       width: 10%;
+//      height: 30px;
+//      border-radius: 50%;
+//      border-color: white;
+//       border-style: solid;
+//       margin-right:2px;
+//       margin-top:9px;
+//       margin-left:2px
+// }
+// .card{
+//      margin: 25%;
+//     width: 50%;
+//     height: 200px;
+//     border-radius: 5%;
+//     margin-top: 14%;
+// }
+// .swipe{
+//     margin-top:-15%;
+//     text-align:center;
+// }
+// .para{
+//   text-align: center;
+//     width: 70%;
+//     margin-left: 17%;
+// }
+
+// .girlpic{
+//    margin:5%;
+//  width:350px;
+// height:70%;
+// border-radius:2%;
+//   transform: translate3d(0px, 0px, 0px) rotate(0rad) scale(1);
+       
+// }
+// #info{
+//     border-radius:50%;
+//     width:20px;
+//     height:15%;
+//     text-align:left;
+//    margin-top:7%;
+// margin-left:180px;
+// // color:white;
+// font-size: 35px;
+// top:285px;
+// left:91px;
+// cursor: pointer;
+// position: absolute;
+// }
+
+// .header{
+//  position:absolute;
+//      margin-left:5%;
+//     top:150px;
+//     left:0px;
+//     color:white;
+//     font-size:25px;
+//     font-family: Arial, Helvetica, sans-serif;
+//      text-shadow: 1px 1px 1px #000, 
+//                3px 3px 5px white;
+//               opacity: 0.6;
+//     filter: alpha(opacity=60);
+// }
+// /////////////////////////////////////////////////////////////////////////////////////////
+
+//   button, input, code {
+//     display: inline-block;
+//     outline: none;
+//     font: inherit;
+//     border: none;
+//     background: #FDE991;
+//     padding: 0; }
+  
+//   button {
+//     color: #C7433E;
+//     cursor: pointer; }
+  
+//   input {
+//     width: 50px; }
+//  #viewport {
+//     width: 305px;
+//     height: 360px;
+  
+//     margin: 5px auto 0;
+//     position: relative; 
+//     border-radius: 5%;}
+// img{
+   
+//     width:100%;
+//     height:50%;
+//     background-size: cover;
+// }
+   
+//    #viewport mat-list-item {
+    //   width: 350px;
+    //   height: 405px;
+    //   list-style: none;
+    //   background: #fff;
+    //   border-radius: 5px;
+    //   position: absolute;
+    //   top: 2px;
+    //   left: 0;
+    //   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.2);
+    //   line-height: 300px;
+    //   text-align: center;
+    //   font-size: 100px;
+    //   border: 10px solid #ECECEC;
+    //   box-sizing: border-box;
+    //   cursor: default; }
+//       #viewport mat-list-item.clubs, #viewport mat-list-item.spades {
+//         color: #373737; }
+//       #viewport mat-list-item.diamonds, #viewport mat-list-item.hearts {
+//         color: #ED5D52; }
+//       #viewport mat-list-item.in-deck:nth-child(3) {
+//         top: 2px;
+//         transform: translate(2px, 2px) rotate(0.4deg); }
+//       #viewport mat-list-item.in-deck:nth-child(2) {
+//         top: 4px;
+//         transform: translate(-4px, -2px) rotate(-1deg); }
+//         #viewport mat-list-item.girl, #viewport mat-list-item.booster {
+//            width:10px;height:10px }
+//            #viewport mat-list-item.heart, #viewport mat-list-item.wrong {
+//             width:10px;height:10px }
+//     #viewport #control {
+//       position: absolute;
+//       bottom: 30px;
+//       left: 0;
+//       right: 0;
+//       text-align: center;
+//       font-size: 0; }
+//       #viewport #control button {
+//         background: #FFFFFF;
+//         color: #373737;
+//         font-weight: bold;
+//         border: none;
+//         font: normal 18px/24px 'Helvetica Neue', Helvetica, Arial, freesans, sans-serif;
+//         margin: 0 5px;
+//         padding: 10px 15px;
+//         cursor: pointer;
+//         box-shadow: 0 2px 0 #63211F;
+//         outline: none;
+//         position: relative; }
+//         #viewport #control button:active {
+//           background: #63211F;
+//           color: #FFFFFF;
+//           bottom: -2px;
+//           box-shadow: none; }
+  
+//   #source {
+//     width: 500px;
+//     margin: 20px auto; }
+//     #source a {
+//       color: #C7433E; }
+
+

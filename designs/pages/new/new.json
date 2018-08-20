@@ -1,0 +1,13 @@
+{
+    "appPageId": "715d3f34-74a5-2732-56f7-536708ffa1cc",
+    "appPageName": "new",
+    "componentName": "newComponent",
+    "selectorName": "bh-new",
+    "htmlFileName": "new.template.html",
+    "tsFileName": "new.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

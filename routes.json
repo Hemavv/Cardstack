@@ -1,0 +1,31 @@
+{
+    "routes": [
+        {
+            "path": "cardstack",
+            "component": "cardstackComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "''",
+            "component": "",
+            "pathMatch": "full",
+            "redirectTo": "cardstack",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        }
+    ]
+}

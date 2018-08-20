@@ -1,0 +1,12 @@
+{
+    "d55baa1a-3c02-c15d-fcae-038446d6d286": {
+        "appPageName": "cardstack",
+        "componentName": "cardstackComponent",
+        "isEntry": false
+    },
+    "715d3f34-74a5-2732-56f7-536708ffa1cc": {
+        "appPageName": "new",
+        "componentName": "newComponent",
+        "isEntry": false
+    }
+}

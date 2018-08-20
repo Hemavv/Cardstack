@@ -1,0 +1,24 @@
+<div fxLayout="column " style="width:100%" fxLayoutAlign=" " fxShow="true" fxHide="false">
+  <div fxLayout="row " class="headerrow" fxFlex="100" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+    <header>
+      <h2 style="color:white;">Swipeable cards</h2><span></span></header>
+  </div>
+  <div fxLayout="column " style="margin-top:10%;" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+    <mat-card ngClass.xs="cardxs" class="card1">
+      <div fxLayout="row " class="cardrow" fxLayoutAlign="center center" fxShow="true" fxHide="false" [stackConfig]="stackConfig" swing-stack="" fxLayoutAlign.xs="center center" (throwout)="stackservice. removecard($event)" #cardStack="">
+        <div fxLayout="column " class="column" fxLayoutAlign="center center" fxShow="true" fxHide="false" swing-card="" *ngFor="let c of stack">
+          <img [imgSrc]="c.image" draggable="false" ngClass.xs="imgxs" class="img">
+          <h4 scrollable="false" matTooltip="{{c.name|uppercase}}" matTooltipPosition="right" matTooltipFont-size="50px" style=" " class="header">{{c.name}}</h4>
+        </div>
+      </div>
+    </mat-card>
+    <div fxLayout="column " fxLayoutAlign="center center" fxShow="true" fxHide="false">
+      <button mat-fab="" style=" " class="fab1">{{stack.length}}</button>
+    </div>
+  </div>
+</div>
+<footer class="footer" ngClass.xs="footerxs" ngClass.md="footermd" ngClass.lt-sm="footerlt-sm">
+  <div fxLayout="row " style="width:100%" fxFlex="100" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+    <h5 style="color:white;">Copyright &#xA9; 2018 Neutrinos</h5>
+  </div>
+</footer>

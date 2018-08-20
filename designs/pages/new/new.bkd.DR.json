@@ -1,0 +1,25 @@
+{
+    "9d90b453-e48a-5576-e97c-2b80478e4edc": {
+        "paletteKey": "HTML",
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "html",
+                "_value": "<bh-cardstack><bh-cardstack>",
+                "_type": "a",
+                "_attrDef": "p"
+            }
+        ]
+    }
+}
